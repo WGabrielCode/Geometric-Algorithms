@@ -1,6 +1,6 @@
 from os import path, listdir
 from time import process_time
-from bitalg import __path__ as pkg_path
+from labs import __path__ as pkg_path
 
 
 def get_test_path(lab_no, task_no, test_no):
