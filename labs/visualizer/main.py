@@ -65,9 +65,9 @@ class Visualizer:
     def save(self, filename='plot'):
         Plot.save(self.plot_data, self.data, filename)
 
-    def show_gif(self, interval=256):
+    def show_gif(self, interval=1):
         gif = Plot.show_gif(self.plot_data, self.data, interval)
         return gif
 
-    def save_gif(self, filename='animation', interval=256):
+    def save_gif(self, filename='animation', interval=1):
         Plot.save_gif(self.plot_data, self.data, interval, filename)
